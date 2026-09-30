@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# SSH private keys
+keys/user_ca
+keys/developer
+
+# Generated SSH certificates
+keys/*-cert.pub
+
+# Environment secrets
+.env
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Legacy SSH private keys
+bastionzero_ca
+developer_key
+
